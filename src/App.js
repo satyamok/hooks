@@ -1,12 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import UseStateHooks from './ReactHooks/UseStateHooks'
+import UseEffectHooks from './ReactHooks/UseEffectHooks'
+import UseMemoHooks from './ReactHooks/UseMemoHooks'
+import USeCallBackHooks from './ReactHooks/UseCallBackHooks'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    
+    <div>
+      {/* <UseStateHooks/> */}
+
+    {/* <UseEffectHooks/> */}
+
+    {/* <UseMemoHooks/> */}
+
+    <USeCallBackHooks/>
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
